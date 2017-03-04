@@ -15,6 +15,8 @@
 		728AFD731E6A93DA009C141B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728AFD711E6A93DA009C141B /* LaunchScreen.storyboard */; };
 		728AFD7E1E6A93DA009C141B /* Anggo_TenantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728AFD7D1E6A93DA009C141B /* Anggo_TenantTests.swift */; };
 		728AFD891E6A93DA009C141B /* Anggo_TenantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728AFD881E6A93DA009C141B /* Anggo_TenantUITests.swift */; };
+		72AAEBC11E6AB8F7001E18CC /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AAEBC01E6AB8F7001E18CC /* AddViewController.swift */; };
+		72AAEBC31E6AB913001E18CC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AAEBC21E6AB913001E18CC /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		728AFD841E6A93DA009C141B /* Anggo TenantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anggo TenantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		728AFD881E6A93DA009C141B /* Anggo_TenantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anggo_TenantUITests.swift; sourceTree = "<group>"; };
 		728AFD8A1E6A93DA009C141B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72AAEBC01E6AB8F7001E18CC /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		72AAEBC21E6AB913001E18CC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				728AFD651E6A93DA009C141B /* AppDelegate.swift */,
 				728AFD671E6A93DA009C141B /* ViewController.swift */,
+				72AAEBC01E6AB8F7001E18CC /* AddViewController.swift */,
+				72AAEBC21E6AB913001E18CC /* DetailViewController.swift */,
 				728AFD691E6A93DA009C141B /* Main.storyboard */,
 				728AFD6F1E6A93DA009C141B /* Assets.xcassets */,
 				728AFD711E6A93DA009C141B /* LaunchScreen.storyboard */,
@@ -267,6 +273,8 @@
 			files = (
 				728AFD681E6A93DA009C141B /* ViewController.swift in Sources */,
 				728AFD661E6A93DA009C141B /* AppDelegate.swift in Sources */,
+				72AAEBC31E6AB913001E18CC /* DetailViewController.swift in Sources */,
+				72AAEBC11E6AB8F7001E18CC /* AddViewController.swift in Sources */,
 				728AFD6E1E6A93DA009C141B /* Anggo_Tenant.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +524,7 @@
 				728AFD8F1E6A93DA009C141B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		728AFD901E6A93DA009C141B /* Build configuration list for PBXNativeTarget "Anggo TenantTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +533,7 @@
 				728AFD921E6A93DA009C141B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		728AFD931E6A93DA009C141B /* Build configuration list for PBXNativeTarget "Anggo TenantUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +542,7 @@
 				728AFD951E6A93DA009C141B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
