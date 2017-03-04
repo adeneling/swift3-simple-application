@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		728AFD661E6A93DA009C141B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728AFD651E6A93DA009C141B /* AppDelegate.swift */; };
+		728AFD681E6A93DA009C141B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728AFD671E6A93DA009C141B /* ViewController.swift */; };
+		728AFD6B1E6A93DA009C141B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728AFD691E6A93DA009C141B /* Main.storyboard */; };
+		728AFD6E1E6A93DA009C141B /* Anggo_Tenant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 728AFD6C1E6A93DA009C141B /* Anggo_Tenant.xcdatamodeld */; };
+		728AFD701E6A93DA009C141B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728AFD6F1E6A93DA009C141B /* Assets.xcassets */; };
+		728AFD731E6A93DA009C141B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728AFD711E6A93DA009C141B /* LaunchScreen.storyboard */; };
+		728AFD7E1E6A93DA009C141B /* Anggo_TenantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728AFD7D1E6A93DA009C141B /* Anggo_TenantTests.swift */; };
+		728AFD891E6A93DA009C141B /* Anggo_TenantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728AFD881E6A93DA009C141B /* Anggo_TenantUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		728AFD7A1E6A93DA009C141B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 728AFD5A1E6A93DA009C141B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 728AFD611E6A93DA009C141B;
+			remoteInfo = "Anggo Tenant";
+		};
+		728AFD851E6A93DA009C141B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 728AFD5A1E6A93DA009C141B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 728AFD611E6A93DA009C141B;
+			remoteInfo = "Anggo Tenant";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		728AFD621E6A93DA009C141B /* Anggo Tenant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anggo Tenant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		728AFD651E6A93DA009C141B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		728AFD671E6A93DA009C141B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		728AFD6A1E6A93DA009C141B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		728AFD6D1E6A93DA009C141B /* Anggo_Tenant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Anggo_Tenant.xcdatamodel; sourceTree = "<group>"; };
+		728AFD6F1E6A93DA009C141B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		728AFD721E6A93DA009C141B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		728AFD741E6A93DA009C141B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		728AFD791E6A93DA009C141B /* Anggo TenantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anggo TenantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		728AFD7D1E6A93DA009C141B /* Anggo_TenantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anggo_TenantTests.swift; sourceTree = "<group>"; };
+		728AFD7F1E6A93DA009C141B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		728AFD841E6A93DA009C141B /* Anggo TenantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anggo TenantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		728AFD881E6A93DA009C141B /* Anggo_TenantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anggo_TenantUITests.swift; sourceTree = "<group>"; };
+		728AFD8A1E6A93DA009C141B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		728AFD5F1E6A93DA009C141B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		728AFD761E6A93DA009C141B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		728AFD811E6A93DA009C141B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		728AFD591E6A93DA009C141B = {
+			isa = PBXGroup;
+			children = (
+				728AFD641E6A93DA009C141B /* Anggo Tenant */,
+				728AFD7C1E6A93DA009C141B /* Anggo TenantTests */,
+				728AFD871E6A93DA009C141B /* Anggo TenantUITests */,
+				728AFD631E6A93DA009C141B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		728AFD631E6A93DA009C141B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				728AFD621E6A93DA009C141B /* Anggo Tenant.app */,
+				728AFD791E6A93DA009C141B /* Anggo TenantTests.xctest */,
+				728AFD841E6A93DA009C141B /* Anggo TenantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		728AFD641E6A93DA009C141B /* Anggo Tenant */ = {
+			isa = PBXGroup;
+			children = (
+				728AFD651E6A93DA009C141B /* AppDelegate.swift */,
+				728AFD671E6A93DA009C141B /* ViewController.swift */,
+				728AFD691E6A93DA009C141B /* Main.storyboard */,
+				728AFD6F1E6A93DA009C141B /* Assets.xcassets */,
+				728AFD711E6A93DA009C141B /* LaunchScreen.storyboard */,
+				728AFD741E6A93DA009C141B /* Info.plist */,
+				728AFD6C1E6A93DA009C141B /* Anggo_Tenant.xcdatamodeld */,
+			);
+			path = "Anggo Tenant";
+			sourceTree = "<group>";
+		};
+		728AFD7C1E6A93DA009C141B /* Anggo TenantTests */ = {
+			isa = PBXGroup;
+			children = (
+				728AFD7D1E6A93DA009C141B /* Anggo_TenantTests.swift */,
+				728AFD7F1E6A93DA009C141B /* Info.plist */,
+			);
+			path = "Anggo TenantTests";
+			sourceTree = "<group>";
+		};
+		728AFD871E6A93DA009C141B /* Anggo TenantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				728AFD881E6A93DA009C141B /* Anggo_TenantUITests.swift */,
+				728AFD8A1E6A93DA009C141B /* Info.plist */,
+			);
+			path = "Anggo TenantUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		728AFD611E6A93DA009C141B /* Anggo Tenant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 728AFD8D1E6A93DA009C141B /* Build configuration list for PBXNativeTarget "Anggo Tenant" */;
+			buildPhases = (
+				728AFD5E1E6A93DA009C141B /* Sources */,
+				728AFD5F1E6A93DA009C141B /* Frameworks */,
+				728AFD601E6A93DA009C141B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Anggo Tenant";
+			productName = "Anggo Tenant";
+			productReference = 728AFD621E6A93DA009C141B /* Anggo Tenant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		728AFD781E6A93DA009C141B /* Anggo TenantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 728AFD901E6A93DA009C141B /* Build configuration list for PBXNativeTarget "Anggo TenantTests" */;
+			buildPhases = (
+				728AFD751E6A93DA009C141B /* Sources */,
+				728AFD761E6A93DA009C141B /* Frameworks */,
+				728AFD771E6A93DA009C141B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				728AFD7B1E6A93DA009C141B /* PBXTargetDependency */,
+			);
+			name = "Anggo TenantTests";
+			productName = "Anggo TenantTests";
+			productReference = 728AFD791E6A93DA009C141B /* Anggo TenantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		728AFD831E6A93DA009C141B /* Anggo TenantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 728AFD931E6A93DA009C141B /* Build configuration list for PBXNativeTarget "Anggo TenantUITests" */;
+			buildPhases = (
+				728AFD801E6A93DA009C141B /* Sources */,
+				728AFD811E6A93DA009C141B /* Frameworks */,
+				728AFD821E6A93DA009C141B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				728AFD861E6A93DA009C141B /* PBXTargetDependency */,
+			);
+			name = "Anggo TenantUITests";
+			productName = "Anggo TenantUITests";
+			productReference = 728AFD841E6A93DA009C141B /* Anggo TenantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		728AFD5A1E6A93DA009C141B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Maulana Yusup A";
+				TargetAttributes = {
+					728AFD611E6A93DA009C141B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 36PQ5BG29X;
+						ProvisioningStyle = Automatic;
+					};
+					728AFD781E6A93DA009C141B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 36PQ5BG29X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 728AFD611E6A93DA009C141B;
+					};
+					728AFD831E6A93DA009C141B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 36PQ5BG29X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 728AFD611E6A93DA009C141B;
+					};
+				};
+			};
+			buildConfigurationList = 728AFD5D1E6A93DA009C141B /* Build configuration list for PBXProject "Anggo Tenant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 728AFD591E6A93DA009C141B;
+			productRefGroup = 728AFD631E6A93DA009C141B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				728AFD611E6A93DA009C141B /* Anggo Tenant */,
+				728AFD781E6A93DA009C141B /* Anggo TenantTests */,
+				728AFD831E6A93DA009C141B /* Anggo TenantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		728AFD601E6A93DA009C141B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				728AFD731E6A93DA009C141B /* LaunchScreen.storyboard in Resources */,
+				728AFD701E6A93DA009C141B /* Assets.xcassets in Resources */,
+				728AFD6B1E6A93DA009C141B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		728AFD771E6A93DA009C141B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		728AFD821E6A93DA009C141B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		728AFD5E1E6A93DA009C141B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				728AFD681E6A93DA009C141B /* ViewController.swift in Sources */,
+				728AFD661E6A93DA009C141B /* AppDelegate.swift in Sources */,
+				728AFD6E1E6A93DA009C141B /* Anggo_Tenant.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		728AFD751E6A93DA009C141B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				728AFD7E1E6A93DA009C141B /* Anggo_TenantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		728AFD801E6A93DA009C141B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				728AFD891E6A93DA009C141B /* Anggo_TenantUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		728AFD7B1E6A93DA009C141B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 728AFD611E6A93DA009C141B /* Anggo Tenant */;
+			targetProxy = 728AFD7A1E6A93DA009C141B /* PBXContainerItemProxy */;
+		};
+		728AFD861E6A93DA009C141B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 728AFD611E6A93DA009C141B /* Anggo Tenant */;
+			targetProxy = 728AFD851E6A93DA009C141B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		728AFD691E6A93DA009C141B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				728AFD6A1E6A93DA009C141B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		728AFD711E6A93DA009C141B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				728AFD721E6A93DA009C141B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		728AFD8B1E6A93DA009C141B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		728AFD8C1E6A93DA009C141B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		728AFD8E1E6A93DA009C141B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 36PQ5BG29X;
+				INFOPLIST_FILE = "Anggo Tenant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mya.tenant.Anggo-Tenant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		728AFD8F1E6A93DA009C141B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 36PQ5BG29X;
+				INFOPLIST_FILE = "Anggo Tenant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mya.tenant.Anggo-Tenant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		728AFD911E6A93DA009C141B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 36PQ5BG29X;
+				INFOPLIST_FILE = "Anggo TenantTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mya.tenant.Anggo-TenantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anggo Tenant.app/Anggo Tenant";
+			};
+			name = Debug;
+		};
+		728AFD921E6A93DA009C141B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 36PQ5BG29X;
+				INFOPLIST_FILE = "Anggo TenantTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mya.tenant.Anggo-TenantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anggo Tenant.app/Anggo Tenant";
+			};
+			name = Release;
+		};
+		728AFD941E6A93DA009C141B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 36PQ5BG29X;
+				INFOPLIST_FILE = "Anggo TenantUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mya.tenant.Anggo-TenantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Anggo Tenant";
+			};
+			name = Debug;
+		};
+		728AFD951E6A93DA009C141B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 36PQ5BG29X;
+				INFOPLIST_FILE = "Anggo TenantUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mya.tenant.Anggo-TenantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Anggo Tenant";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		728AFD5D1E6A93DA009C141B /* Build configuration list for PBXProject "Anggo Tenant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728AFD8B1E6A93DA009C141B /* Debug */,
+				728AFD8C1E6A93DA009C141B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		728AFD8D1E6A93DA009C141B /* Build configuration list for PBXNativeTarget "Anggo Tenant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728AFD8E1E6A93DA009C141B /* Debug */,
+				728AFD8F1E6A93DA009C141B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		728AFD901E6A93DA009C141B /* Build configuration list for PBXNativeTarget "Anggo TenantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728AFD911E6A93DA009C141B /* Debug */,
+				728AFD921E6A93DA009C141B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		728AFD931E6A93DA009C141B /* Build configuration list for PBXNativeTarget "Anggo TenantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728AFD941E6A93DA009C141B /* Debug */,
+				728AFD951E6A93DA009C141B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		728AFD6C1E6A93DA009C141B /* Anggo_Tenant.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				728AFD6D1E6A93DA009C141B /* Anggo_Tenant.xcdatamodel */,
+			);
+			currentVersion = 728AFD6D1E6A93DA009C141B /* Anggo_Tenant.xcdatamodel */;
+			path = Anggo_Tenant.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 728AFD5A1E6A93DA009C141B /* Project object */;
+}
